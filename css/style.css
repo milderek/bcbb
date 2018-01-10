@@ -1,0 +1,71 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+h1 {
+  position: absolute;
+  top: 15%;
+  width: 600px;
+
+  font-weight:400;
+  font-size: 38px;
+  line-height:1.5em;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom:5px;
+  color: #FFFFFF;
+}
+
+#particles-js canvas {
+  position: absolute;
+  background-color: #009688;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#verdict {
+  position: absolute;
+  opacity: 0.95;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5%;
+  width: 400px;
+}
+
+#tip {
+  text-align: center;
+  color: #B2DFDB;
+}
+
+p {
+  font-size: 18px;
+}
+
+iframe {
+  border: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hcenter {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.vcenter {
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
